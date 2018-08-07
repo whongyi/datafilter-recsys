@@ -13,8 +13,8 @@ import numpy as np
 
 batch_size = 1000
 test_batch_size = 100
-num_itr = 100+1 # for demo purpose, change it to 1e4+1
-display_itr = 50 # change it to 1000
+num_itr = 1e4+1
+display_itr = 1000
 LOG_TYPE  = 'validation'
 LOGGING = True 
 

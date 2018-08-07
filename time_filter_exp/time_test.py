@@ -61,7 +61,7 @@ def run_test_exp(model_name=None, evaluator=None, raw_data=None, user_per=1.0, k
 
     num_process = 8
     dim_embed = 50
-    if model_name == 'pmf':
+    if model_name == 'PMF':
         model = PMF(batch_size=batch_size, max_user=train_dataset.max_user(), max_item=train_dataset.max_item(), dim_embed=dim_embed, opt='Adam', l2_reg=l2_reg)
         sampler = PointwiseSampler(batch_size=batch_size, dataset=train_dataset, pos_ratio=0.5, num_process=num_process)
     elif model_name == 'CML':
