@@ -1,10 +1,10 @@
 import os
 import sys
-from openrec import ImplicitModelTrainer
-from openrec.utils import ImplicitDataset
-from openrec.recommenders import PMF, CML, BPR
-from openrec.utils.evaluators import Recall, NDCG
-from openrec.utils.samplers import PairwiseSampler,PointwiseSampler
+from openrec.legacy import ImplicitModelTrainer
+from openrec.legacy.utils import ImplicitDataset
+from openrec.legacy.recommenders import PMF, CML, BPR
+from openrec.legacy.utils.evaluators import Recall, NDCG
+from openrec.legacy.utils.samplers import PairwiseSampler,PointwiseSampler
 import logging 
 import datetime
 import csv
