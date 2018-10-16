@@ -1,5 +1,5 @@
 # Dependency
-We used [OpenRec](http://openrec.ai/), an open-source and modular library for neural network-inspired recommendation algorithms, to conduct our experiements in the paper. Please refer to the [repo](https://github.com/ylongqi/openrec) for installation details.
+We used [OpenRec](http://openrec.ai/), an open-source and modular library for neural network-inspired recommendation algorithms, to conduct our experiements in the [paper](https://github.com/whongyi/datafilter-recsys/blob/master/docs/paper.pdf). Please refer to the [repo](https://github.com/ylongqi/openrec) for installation details.
 
 # Dataset 
 The [MovieLens 20M](http://files.grouplens.org/datasets/movielens/ml-20m-README.html) dataset was used as a testbed to evaluate how user-controlled data filtering could affect recommendation performance. Follow [this notebook](/notebook/movielens_dataset_parse.ipynb) to preprocess the dataset.
@@ -20,5 +20,5 @@ Under the project folder, run `./scripts/time_test.sh $RECOMMENDER $EVALUATOR` t
 Follow the [Experiments](/notebook/movielens_experiments.ipynb#Experiments) sections to generate figures that illustrate the experimental results.
 
 # Reference
-Hongyi Wen, Longqi Yang, Michael Sobolev, and Deborah Estrin. 2018. Exploring Recommendations Under User-Controlled Data Filtering. In Twelfth ACM Conference on Recommender Systems (RecSys ’18), October 2–7, 2018, Vancouver, BC, Canada.
+Hongyi Wen, Longqi Yang, Michael Sobolev, and Deborah Estrin. 2018. Exploring Recommendations Under User-Controlled Data Filtering. In Twelfth ACM Conference on Recommender Systems (RecSys ’18), October 2–7, 2018, Vancouver, BC, Canada. [[PDF]](https://github.com/whongyi/datafilter-recsys/blob/master/docs/paper.pdf)[[Slides]](https://github.com/whongyi/datafilter-recsys/blob/master/docs/slides.pdf)
 
